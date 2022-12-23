@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f5f8;
+}
+.active-btn {
+  background: #0d6efd;
+  color: #fff !important;
+}
+.pagination {
+  --bs-pagination-hover-border-color: none;
+  --bs-pagination-focus-bg: none;
+  --bs-pagination-active-color: none;
+  --bs-pagination-color: none;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
